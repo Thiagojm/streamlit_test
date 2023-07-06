@@ -27,3 +27,9 @@ sudo systemctl status streamlit-app.service
 
 Pra reload:
 sudo systemctl daemon-reload
+
+Para deletar:
+sudo systemctl stop streamlit-app.service
+sudo systemctl disable streamlit-app.service
+sudo rm /etc/systemd/system/streamlit-app.service
+sudo systemctl daemon-reload
