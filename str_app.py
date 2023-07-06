@@ -37,7 +37,7 @@ def main():
 
     # Displaying an image
     st.header("Image")
-    st.image("src\\img\\sup_cpu.jpg", caption="Super CPU", use_column_width=True)
+    st.image("src/img/sup_cpu.jpg", caption="Super CPU", use_column_width=True)
 
 if __name__ == "__main__":
     main()
